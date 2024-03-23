@@ -83,7 +83,7 @@ sudo arp-scan -I eth1 192.168.31.0/24
 > **`ping`** - send ICMP ECHO\_REQUEST to network hosts
 
 ```bash
-ping 192.168.31.2
+ping 192.168.31.2 or ping -b -c 1 192.168.31.0
 # Reachable
 
 ping 192.168.31.5
